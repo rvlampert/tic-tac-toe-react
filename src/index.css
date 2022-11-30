@@ -1,0 +1,60 @@
+body {
+  background-color: #444;
+  color: white;
+  margin: 20px;
+  font: 32px "Century Gothic", Futura, sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+.statusSession{
+  margin: 20px;
+  font-size: 24px;
+  /* border: 1px solid #999; */
+}
+
+
+
+.playAgainSession{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 0;
+  text-align: center;
+}
+
+.squareButton {
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.playAgainButton {
+  /* margin: 1000; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  /* padding: 400; */
+  font-size: 32px;
+  text-align: center;
+}
