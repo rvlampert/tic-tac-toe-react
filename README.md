@@ -19,4 +19,5 @@ To run: `yarn start` or `npm start`
 - `index.css`
 
 ## How to run:
+Run the command `npm install`
 Run the makefile command `make run` or use the `yarn start` or `npm start` to start the game
